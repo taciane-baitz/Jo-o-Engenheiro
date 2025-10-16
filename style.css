@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background-color: #f28705;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+header img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 35px;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+.logo {
+  width: 290px;
+  height: 100px;
+  margin-left: -100px;
+  margin-right: 200px;
+}
+
+/* .fundo {
+    background-color: #00000047;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+.banner img {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+}
+
+.banner h1 {
+
+  text-shadow: orangered;
+}
+
+.banner-texto {
+  font-family: "Montserrat", Sans-serif;
+
+  font-size: 32px;
+}
+
+
+.texto {
+  position: absolute;
+  margin-top: 280px;
+  margin-left: 90px;
+  font-size: 80px;
+}
+
+.texto1 {
+  position: absolute;
+  margin-top: 370px;
+  margin-left: 90px;
+  font-size: 50px;
+
+}
+
+.texto2 {
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 90px;
+  font-family: Arial, sans-serif;
+}
+
+.botao {
+  position: absolute;
+  margin-top: 520px;
+  margin-left: 90px;
+  background-color: orangered;
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.total {
+  margin-top: 900px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0px 100px 0px;
+}
+
+.joao {
+  width: 45%;
+}
+
+.joao1 {
+  margin-left: -250px;
+}
+
+.imagem {
+  height: 450px;
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+.texto3 {
+  font-family: Arial, sans-serif;
+  color: #f28705;
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+
+.texto4 {
+  font-family: Arial, sans-serif;
+  color: black;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+.icon {
+  width: 90px;
+}
+
+.caixas {
+  display: flex;
+}
+
+.caixa {
+  background-color: #f28705;
+  width: 500px;
+  margin: 10px;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.textoDiferente {
+  margin-top: 20px;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.texto5 {
+  color: #f20707;
+  font-size: 25px;
+  width: 600px;
+  margin-left: 481px;
+  text-align: justify;
+  line-height: 40px;
+}
+
+.servico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.predios {
+  width: 300px;
+  margin: 20px;
+}
+
+.laudo {
+  margin-left: 200px;
+}
+
+.texto6 {
+  font-family: Arial, sans-serif;
+  color: #f28705;
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+.texto7 {
+  color: #ff0000;
+  font-size: 25px;
+  width: 500px;
+  text-align: justify;
+  line-height: 40px;
+}
+
+.botao1 {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 90px;
+  background-color: orangered;
+  padding: 20px 50px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.perfil {
+  width: 550px;
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+.conteudo {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contato {
+  background-color: #f28705;
+  padding: 50px 80px;
+  display: flex;
+}
+
+.texto8{
+  font-size: 35px;
+}
+
+.texto9 {
+  font-size: 20px;
+  width: 600px;
+}
+
+.depoimento {
+  margin-right: 400px;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+}
+
+.mensagem {
+  height: 100px;
+}
+
+.botao2 {
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  width: 150px;
+  font-weight: bold;
+  background-color: aqua;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.forms {
+  margin-left: -60px;
+}
